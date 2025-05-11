@@ -1,5 +1,8 @@
 
----
+Debt Manager API is a simple full-stack app with a Node.js + MongoDB backend, JWT auth, and a React frontend—built for learning and experimenting with core backend concepts like routing, authentication, testing, and containerization.
+It was inspired by real-world fintech use cases and the desire to better understand how to build secure, transparent systems that support user-facing financial workflows.
+
+
 
 ##  Running the Project with Docker Compose
 
