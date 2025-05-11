@@ -1,7 +1,7 @@
 
 ---
 
-## 🐳 Running the Project with Docker Compose
+##  Running the Project with Docker Compose
 
 To start the API and MongoDB together:
 
@@ -16,7 +16,7 @@ You can test the endpoints using Postman or the React app.
 
 ---
 
-## ⚛️ Running the React Frontend
+## Running the React Frontend
 
 The frontend is located in the `frontend-react` folder.
 
@@ -40,7 +40,7 @@ npm start
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 We use Jest and Supertest for API testing.
 
