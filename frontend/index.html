@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Debt Manager</title>
+</head>
+<body>
+  <h1>Debt Manager Test</h1>
+  <button onclick="getDebts()">Get Debts</button>
+  <pre id="output"></pre>
+
+  <script>
+    async function getDebts() {
+      const res = await fetch('http://localhost:5000/api/debts');
+      const data = await res.json();
+      document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+    }
+  </script>
+</body>
+</html>
